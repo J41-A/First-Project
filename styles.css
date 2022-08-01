@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+ display:flex;
+ justify-content: space-between;
+ background-color: antiquewhite; 
+ box-shadow: 1rem;
+ padding: 1rem;
+
+}
+nav ul{
+    display:flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+
+}
+nav ul li{
+    margin-right: 1rem;
+
+}
