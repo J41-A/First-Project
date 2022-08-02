@@ -1,15 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="./styles.css"/>
-</head>
-<header><nav><h2>Project</h2><ul><li><a href="./index.html">Home</a></li><li><a href="./about.html">About</a></li><li><a href="./projects.html">Projects</a></li></ul></nav></header>
-<body>
-    Hello World?
-
-</body>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script>
+      $(function () {
+        $("#nav").load("./nav.html");
+        $("#footer").load("./footer.html");
+      });
+    </script>
+  </head>
+  <header id="nav">
+  </header>
+  <body>
+    <div
+      style="
+        max-width: 500px;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+      "
+    >
+      <h1>Jai Aggarwal</h1>
+      <img
+        style="width: 400px; height: 250px"
+        src="./img/aboutme.jpg"
+        alt="Profile"
+      />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
+        officia ipsum temporibus at quia neque velit deleniti assumenda nobis,
+        corporis ipsa iste! Nesciunt expedita magni debitis consequuntur?
+      </p>
+    </div>
+  </body>
+  <footer id="footer">
+  </footer>
 </html>

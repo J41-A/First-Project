@@ -5,10 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css"/>
+    
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script>
+      $(function () {
+        $("#nav").load("./nav.html");
+        $("#footer").load("./footer.html");
+      });
+    </script>
+
     <title>Projects</title>
 </head>
-<header><nav><h2>Project</h2><ul><li><a href="./index.html">Home</a></li><li><a href="./about.html">About</a></li><li><a href="./projects.html">Projects</a></li></ul></nav></header>
+<header id="nav">
+</header>
 <body>
-    Projects
+    <div class="parent_projects">
+        <h3 style="display: block">My Projects</h3>
+  
+        <div class="child_project">
+          <div class="project">
+            <img style="width: 400px; height: 250px" src="./img/project1.jpg" class="center" />
+            <h2>Project1</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.Vitae minus
+              fugiat dolorum soluta qui animi facilis aliquam!
+            </p>
+            <h3 class="seemore">See More</h3>
+          </div>
+  
+          <div class="project">
+              <img style="width: 400px; height: 250px" src="./img/project1.jpg" class="center" />
+              <h2>Project1</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.Vitae minus
+                fugiat dolorum soluta qui animi facilis aliquam!
+              </p>
+              <h3 class="seemore">See More</h3>
+            </div>
+  
+            <div class="project">
+              <img style="width: 400px; height: 250px" src="./img/project1.jpg" class="center" />
+              <h2>Project1</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.Vitae minus
+                fugiat dolorum soluta qui animi facilis aliquam!
+              </p>
+              <h3 class="seemore">See More</h3>
+            </div>
+  
+          
+  
+      </div>
 </body>
+<footer id="footer">
+</footer>
 </html>

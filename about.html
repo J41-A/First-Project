@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script>
+      $(function () {
+        $("#nav").load("./nav.html");
+        $("#footer").load("./footer.html");
+      });
+    </script>
     <title>About</title>
-</head>
-<header><nav><h2>Project</h2><ul><li><a href="./index.html">Home</a></li><li><a href="./about.html">About</a></li><li><a href="./projects.html">Projects</a></li></ul></nav></header>
-<body>
-    About
-</body>
+  </head>
+  <header id="nav">
+  </header>
+  <body>
+    <div class="aboutme-outer">
+      <div class="aboutme-inner">
+        <img src="./img/aboutme.jpg" alt="Profile" />
+        <div>
+          <h3 class="aboutme-text">About Me</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto
+            blanditiis totam ut labore ipsum consectetur corporis distinctio
+            suscipit sed quae eius et facere molestias, ipsa recusandae expedita
+            facilis. Cumque, tenetur.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer id="footer">
+</footer>
 </html>

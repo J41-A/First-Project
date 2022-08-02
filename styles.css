@@ -1,24 +1,107 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-nav{
- display:flex;
- justify-content: space-between;
- background-color: antiquewhite; 
- box-shadow: 1rem;
- padding: 1rem;
-
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(155, 100, 29, 0.496);
+  box-shadow: 1rem;
+  padding: 1rem;
 }
-nav ul{
-    display:flex;
-    list-style: none;
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li {
+  margin-right: 1rem;
+}
+.aboutme-outer {
+  padding: 2rem;
+  max-width: 75%;
+  margin-left: 4rem;
+}
+
+.aboutme-inner {
+  display: flex;
+}
+
+.aboutme-inner img {
+  max-width: 20%;
+}
+.aboutme-text {
+  margin-left: 1rem;
+}
+
+.project1 img {
+  max-width: 250px;
+}
+
+.myprojects-outer {
+  display: block;
+  border: 10px solid red;
+
+  padding-left: 2rem;
+}
+
+.project1 {
+  border-style: solid;
+  width: 250px;
+  border: 5px solid red;
+  /* margin-right: 70rem; */
+  display: inline;
+}
+
+.parent_projects {
+  display: block;
+  border: 5px solid black;
+}
+
+.child_project {
+  display: flex;
+  border: 5px solid red;
+}
+
+.project {
+  border: 5px solid black;
+  width: 450px;
+  height: 350px;
+  border-radius: 25px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footerstyle{
+    width: 100%;
+    display: block;
+    margin: auto;
     align-items: center;
-    justify-content: center;
-
+    text-align: center;
+    position: fixed;
+    padding: 3px;
+    background-color: darksalmon;
+    color: white;
+    bottom:0;
 }
-nav ul li{
-    margin-right: 1rem;
 
+img {
+  border-radius: 25px;
+}
+
+table {
+  border-spacing: 10px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
 }
