@@ -62,7 +62,6 @@ nav ul li {
 
 .child_project {
   display: flex;
-  border: 5px solid red;
 }
 
 .project {
@@ -104,4 +103,12 @@ table,
 th,
 td {
   border: 1px solid black;
+}
+
+
+.icons{
+    vertical-align: middle;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
 }
