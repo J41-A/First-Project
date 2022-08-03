@@ -57,10 +57,10 @@ nav ul li {
 
 .parent_projects {
   display: block;
-  border: 5px solid black;
 }
 
 .child_project {
+  padding-top: 15px;
   display: flex;
 }
 
@@ -71,6 +71,12 @@ nav ul li {
   border-radius: 25px;
   margin-left: 10px;
   text-align: center;
+
+  transition: transform 0.2s;
+  margin: 0 auto;
+}
+.project:hover {
+  transform: scale(1.1);
 }
 
 .center {
@@ -79,17 +85,17 @@ nav ul li {
   margin-right: auto;
 }
 
-.footerstyle{
-    width: 100%;
-    display: block;
-    margin: auto;
-    align-items: center;
-    text-align: center;
-    position: fixed;
-    padding: 3px;
-    background-color: darksalmon;
-    color: white;
-    bottom:0;
+.footerstyle {
+  width: 100%;
+  display: block;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  padding: 3px;
+  background-color: darksalmon;
+  color: white;
+  bottom: 0;
 }
 
 img {
@@ -105,10 +111,9 @@ td {
   border: 1px solid black;
 }
 
-
-.icons{
-    vertical-align: middle;
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
+.icons {
+  vertical-align: middle;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
 }
